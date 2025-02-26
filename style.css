@@ -1,0 +1,81 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for Forms & Student Details */
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Hall Ticket Layout */
+.hall-ticket {
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px;
+  width: 350px;
+  margin: auto;
+  background-color: white;
+  position: relative;
+}
+
+/* Hall Ticket Header Layout */
+.hall-ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Student Photo Left */
+.student-photo {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* QR Code Right */
+.qr-code {
+  width: 120px;
+  height: 120px;
+}
