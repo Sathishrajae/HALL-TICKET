@@ -45,7 +45,7 @@ function assignStudentName() {
 
     const studentNames = {
         "22BCA043": "SATHISH RAJA E",
-        "22BCA028": "MOHAMMED ALTHAF I"
+        "22BCA028": "MOHAMMED ALTHAF I",
         "U22SC011": "ARUN KUMAR"
     };
 
